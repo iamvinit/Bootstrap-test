@@ -9,7 +9,7 @@ body{
 .row-content{
 	min-height: 300px;
 	padding: 30px 0px 30px 0px;
-	border-bottom:2px ridge;
+	border-bottom:1px ridge;
 	margin:0px auto;
 }
 
@@ -27,7 +27,19 @@ body{
 	background-color: #514449;
 	color:#000000;
 }
+.res-card{
+	padding: 50px 40px 50px 40px;
+}
+.res-card-header{
+	background-color: #ffad33
+}
 address{
 	font-size: 85%;
 	color: #0f0f0f;
+}
+.tab-content{
+	border-bottom:2px solid #ddd;
+	border-right:2px solid #ddd;
+	border-left:2px solid #ddd; 
+	padding: 15px;
 }
