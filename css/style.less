@@ -1,0 +1,67 @@
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
+	margin:0px auto;
+	padding: @pad-up-dn @pad-left-right;
+}
+
+body{
+	margin:50px 0px 0px 0px;
+}
+.row-header{
+	 .zero-margin();
+	font-size: 130%
+}
+
+.row-content{
+	.zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:300px;
+}
+
+.jumbotron{
+	.zero-margin(70px,30px);
+	background-color: #722439;
+	color:floralwhite;
+}
+
+.footer{
+	.zero-margin(30px,5px);
+	background-color: #514449;
+	color:#000000;
+}
+.res-card{
+	padding: 50px 40px 50px 40px;
+}
+.res-card-header{
+	background-color: #ffad33
+}
+address{
+	font-size: 85%;
+	color: #0f0f0f;
+}
+.tab-content{
+	border-bottom:2px solid #ddd;
+	border-right:2px solid #ddd;
+	border-left:2px solid #ddd; 
+	padding: 15px;
+}
+.carousel {
+    background:#203040;
+	.carousel-item {
+	  	height: 300px;
+	  img {
+			border:1px solid #ddd;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    min-height: 300px;
+		}
+	}
+	
+}
+#carousel-button{
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+
+
+}

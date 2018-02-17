@@ -1,45 +1,60 @@
-body{
-	margin:50px 0px 0px 0px;
+body {
+  margin: 50px 0px 0px 0px;
 }
-.row-header{
-	margin: 0px auto;
-	font-size: 130%
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+  font-size: 130%;
 }
-
-.row-content{
-	min-height: 300px;
-	padding: 30px 0px 30px 0px;
-	border-bottom:1px ridge;
-	margin:0px auto;
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 300px;
 }
-
-.jumbotron{
-	margin: 0px auto;
-	background-color: #722439;
-	margin:auto;
-	padding: 70px 30px 70px 30px;
-	color:floralwhite;
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-color: #722439;
+  color: floralwhite;
 }
-
-.footer{
-	margin: 0px auto;
-	padding: 30px 5px 30px 5px;
-	background-color: #514449;
-	color:#000000;
+.footer {
+  margin: 0px auto;
+  padding: 30px 5px;
+  background-color: #514449;
+  color: #000000;
 }
-.res-card{
-	padding: 50px 40px 50px 40px;
+.res-card {
+  padding: 50px 40px 50px 40px;
 }
-.res-card-header{
-	background-color: #ffad33
+.res-card-header {
+  background-color: #ffad33;
 }
-address{
-	font-size: 85%;
-	color: #0f0f0f;
+address {
+  font-size: 85%;
+  color: #0f0f0f;
 }
-.tab-content{
-	border-bottom:2px solid #ddd;
-	border-right:2px solid #ddd;
-	border-left:2px solid #ddd; 
-	padding: 15px;
+.tab-content {
+  border-bottom: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  padding: 15px;
+}
+.carousel {
+  background: #203040;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carousel-button {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
